@@ -1,0 +1,4 @@
+.env
+.ipynb_checkpoints/
+# Byte-compiled / cached
+__pycache__/
