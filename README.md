@@ -1,3 +1,3 @@
 # RAGTest
 
-Small experimental repository for testing Retrieval-Augmented Generation (RAG) workflows and integrations.
+Small experimental repository for testing Retrieval-Augmented Generation (RAG) workflows and integrations.# rag_sample_notebook
