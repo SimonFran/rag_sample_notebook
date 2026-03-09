@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  vector_db:
+    image: pgvector/pgvector:pg16
+    container_name: vector_db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=vector_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - vector_db_data:/var/lib/postgresql/data
+
+volumes:
+  vector_db_data:
+    driver: local

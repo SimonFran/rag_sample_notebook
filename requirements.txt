@@ -1,0 +1,8 @@
+datasets==4.4.1
+langchain-core==1.1.0
+langchain-ollama==1.0.0
+langchain-postgres==0.0.16
+langchain-text-splitters==1.0.0
+psycopg[binary]==3.2.13
+psycopg-pool==3.2.8
+python-dotenv==1.2.1
